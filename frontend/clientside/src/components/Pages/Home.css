@@ -1,15 +1,23 @@
 .home {
+  height: 100vh;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
 
-    background-image: url(./images/hero.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 66%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    float: right;
+.home > * {
+  width: 50%;
+}
 
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+}
+
+.text > div > * {
+  margin-right: 50px;
 }
 
 .btn {
@@ -24,16 +32,4 @@
 .parag {
   text-align: center;
 }
-
-.flot {
-  float: left;
-}
-
-  /* {
-    border: none;
-    padding: 6px 40px;
-    background-color: rgba(231, 102, 16, 0.667);
-    color: white;
-    font-size: 18px;
-}  */
 

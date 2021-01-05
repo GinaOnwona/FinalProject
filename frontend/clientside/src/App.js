@@ -1,6 +1,5 @@
 import React,  {useState, useEffect} from 'react';
 import Login from "./components/Pages/Login";
-// import Home from "./Components/Home";
 import {BrowserRouter,Switch,Route} from "react-router-dom";
 import NavBar from "./components/Pages/NavBar"
 import SignUp from './components/Pages/SignUp';
