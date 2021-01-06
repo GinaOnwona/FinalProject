@@ -6,6 +6,7 @@
     margin: 0%;
     text-align: center;
     height:60%;
+    background-color: #373379;
     /* float: left; */
     /* font-family: Cambria, C */
    
@@ -16,10 +17,16 @@
    padding: 3px;
    margin: 4px;
    align-items: center;
-   justify-content: center;
+   justify-content: space-around;
    -webkit-box-align: center;
    text-align: center;
+   color: white;
+   font-size: 1.5em;
    
+   }
+
+   .Nav li:hover {
+       color: #f73097;
    }
 
 
